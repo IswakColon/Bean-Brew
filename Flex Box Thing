@@ -1,0 +1,34 @@
+HTML
+<div class = "standard-box">
+  <div >
+    Image
+    <img src = "">
+  </div>
+  <div>
+    <h2>
+      Text
+    </h2>
+    <p>Also text</p>
+  </div>
+</div>
+
+CSS
+.standard-box {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.standard-box > div {
+    height: 300px;
+    background: #ccc;
+    margin: 10px;
+    margin-top: 55px;
+    margin-right: 5px;
+    flex: 50%;
+  }
+
+@media (max-width: 800px) {
+.standard-box {
+    flex-direction: column;
+    }
+}

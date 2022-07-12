@@ -74,3 +74,39 @@ nav a:hover::before {
   width: 100%;
 }
 
+.footer-box {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footer-box > div {
+    background: #FF8B66;
+    margin-top: 55px;
+
+    flex: 100%;
+}
+
+@media (max-width: 800px) {
+.footer-box {
+    flex-direction: column;
+    }
+}
+.footer-link-text {
+    color: #444;
+    font-family: "OpenDyslexic3Regular";
+	font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 0.750rem;
+}
+.footer-title {
+    color: #444;
+    font-family: "OpenDyslexic3Regular";
+	font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1rem;
+    margin-left: 37px;
+}

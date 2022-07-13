@@ -74,6 +74,28 @@ nav a:hover::before {
   width: 100%;
 }
 
+
+.standard-box {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.standard-box > div {
+  height: 300px;
+  background: #ccc;
+  margin: 10px;
+  margin-top: 55px;
+  margin-right: 5px;
+  flex: 50%;
+}
+
+@media (max-width: 800px) {
+.standard-box{
+  flex-direction: column;
+  }
+}
+
+
 .footer-box {
     display: flex;
     flex-wrap: nowrap;

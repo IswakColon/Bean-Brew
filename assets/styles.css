@@ -25,6 +25,7 @@ header::after {
 
 .logo {
   width: auto;
+  vertical-align: middle;
 }
 
 nav {

@@ -9,12 +9,12 @@ body {
 }
 
 .container {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 }
 
 header {
-  background: #ffffff00;
+  background: #0000008a;
 }
 
 header::after {
@@ -24,8 +24,7 @@ header::after {
 }
 
 .logo {
-  float: left;
-  padding: 0.625rem 0%;
+  width: auto;
 }
 
 nav {
@@ -37,31 +36,31 @@ nav ul {
   margin: 0%;
   padding: 0%;
   list-style: none;
-
 }
 
 nav li {
   display: inline-block;
-  margin-left: 4.375rem;
+  margin-left: 3.8rem;
   position: relative;
 }
 
 nav a {
-  color: #444;
+  color: rgb(190, 190, 190);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.875rem;
+  text-align: center;
 }
 
 nav a:hover {
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 nav a::before {
   content: '';
   display: block;
   height: 0.3125rem;
-  background-color: #444;
+  background-color: rgb(255, 255, 255);
 
   position: absolute;
   top: 0% auto;

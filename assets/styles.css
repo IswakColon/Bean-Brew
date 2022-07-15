@@ -5,7 +5,8 @@ body {
 	background: #222;
 	font-family: "OpenDyslexic3Regular";
 	font-weight: normal;
-    font-style: normal;
+  font-style: normal;
+  overflow:auto;
 }
 
 .container {

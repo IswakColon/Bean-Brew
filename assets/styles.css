@@ -2,7 +2,7 @@
 
 body {
 	margin: 0;
-	background: #222;
+	background: rgb(227, 226, 226);
 	font-family: "OpenDyslexic3Regular";
 	font-weight: normal;
   font-style: normal;
@@ -45,6 +45,7 @@ nav ul {
   margin: 0%;
   padding: 0%;
   list-style: none;
+  position: sticky;
 }
 
 nav li {
@@ -54,11 +55,12 @@ nav li {
 }
 
 nav a {
-  color: rgb(190, 190, 190);
+  color: rgb(151, 151, 151);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.925rem;
   text-align: center;
+  
 }
 
 nav a:hover {
@@ -152,4 +154,9 @@ nav a:hover::before {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.active{
+
+color: white;
 }

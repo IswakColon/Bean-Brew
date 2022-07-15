@@ -2,7 +2,7 @@
 
 body {
 	margin: 0;
-	background: rgb(227, 226, 226);
+	background: rgb(230, 230, 230);
 	font-family: "OpenDyslexic3Regular";
 	font-weight: normal;
   font-style: normal;
@@ -146,6 +146,8 @@ nav a:hover::before {
   background-image: url('/assets/images/279618.jpg'); 
   width: 100%; 
   height: 100%;
+  
+ 
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -160,3 +162,35 @@ nav a:hover::before {
 
 color: white;
 }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.containersupport {
+  border-radius: 5px;
+  background-color: #bebebe;
+  padding: 20px;
+  border: #444;
+}
+

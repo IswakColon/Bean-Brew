@@ -39,12 +39,12 @@ nav ul {
   margin: 0%;
   padding: 0%;
   list-style: none;
-  position: sticky;
+  
 }
 
 nav li {
   display: inline-block;
-  margin-left: 3.8rem;
+  margin-left: 3.9rem;
   position: relative;
 }
 
@@ -52,7 +52,7 @@ nav a {
   color: rgb(151, 151, 151);
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 0.925rem;
+  font-size: 0.825rem;
   text-align: center;
   
 }
@@ -167,33 +167,42 @@ body {
     margin-left: 37px;
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+div.elem-group {
+  margin: 40px 0;
 }
 
-input[type=submit] {
-  background-color: #04AA6D;
+label {
+  display: block;
+  font-family: 'Aleo';
+  padding-bottom: 4px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Aleo';
+  width: 500px;
+  padding: 8px;
+}
+
+textarea {
+  height: 250px;
+}
+
+button {
+  height: 50px;
+  background: green;
   color: white;
-  padding: 12px 20px;
-  border: none;
+  border: 2px solid darkgreen;
+  font-size: 1.25em;
+  font-family: 'Aleo';
   border-radius: 4px;
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.containersupport {
-  border-radius: 5px;
-  background-color: #bebebe;
-  padding: 20px;
-  border: #444;
+button:hover {
+  border: 2px solid black;
 }
